@@ -13,7 +13,7 @@ This project analyzes gene expression data from the GEO database to identify dif
 - matplotlib, seaborn
 - gseapy
 
-## 🧪 Methodology
+## Methodology
 - Retrieved dataset (GSE65127) from GEO
 - Performed preprocessing and normalization
 - Applied PCA for quality analysis
@@ -21,11 +21,16 @@ This project analyzes gene expression data from the GEO database to identify dif
 - Performed pathway enrichment analysis
 - Identified potential drug candidates
 
-## 📊 Results
-- Identified top differentially expressed genes
-- Visualized patterns using PCA and volcano plots
-- Predicted top drug candidates for vitiligo
+## Results
 
+### PCA Plot
+![PCA Plot](pca_plot.png)
+
+### Volcano Plot
+![Volcano Plot](volcano_plot.png)
+
+### Drug Candidates
+![Drug Plot](drug_plot.png)
 ## 🚀 Features
 - End-to-end bioinformatics pipeline
 - Integration of statistical and biological analysis
